@@ -1,0 +1,7 @@
+{
+	"update_user":
+	{
+		"sql" : "UPDATE user SET name=(s:name) WHERE id = (i:id)",
+		"maptype" : 1
+	}
+}

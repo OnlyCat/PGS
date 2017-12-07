@@ -1,0 +1,7 @@
+{
+	"insert_user_info":
+	{
+		"sql" : "INSERT INTO user(name) VALUES ((s:name))",
+		"maptype":1
+	}
+}

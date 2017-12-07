@@ -1,0 +1,25 @@
+fieldset{border-radius:0.2rem;}
+legend{font-size: 13px; color: #888888; font-weight: 500;    margin-bottom: 10px;}
+.web-operate{width:30%; margin-bottom: 5px; float:left}
+.web-operate .web-title{width:100%;}
+.tit-area{width:100%; }
+.tit-area .t-line{width:100%; margin-bottom:0.1rem; height:2rem;}
+.tit-area .t-depict{height:3rem;margin-bottom:0.5rem; }
+.tit-area .t-line .l-title{width:21%;float:left;padding-left:1rem;    min-width: 70px; color:#555; font-size:14px; height:2rem; line-height:2rem;}
+.tit-area .t-line .l-input{width:74%;float:right; line-height:2rem; }
+.tit-area .t-line .l-input select{padding:0 5px 0 5px; height:1.5rem; border-radius: 0.2rem; border:1px solid #ccc;}
+.tit-area .t-line .l-input input{width:80%; border:1px solid #ccc; height:1.5rem; line-height:2rem;border-radius: 0.2rem; padding:0 5px 0 5px;}
+.tit-area .t-line .l-input textarea{width:80.1%; height:3rem; padding:5px; border-radius: 0.2rem; border:1px solid #ccc;resize:none}
+.web-content{width:100%; margin-bottom: 5px;}
+.cont-area{width:100%; margin-bottom: 5px; height:32rem; OVERFLOW-Y: auto; OVERFLOW-X:hidden;}
+.cont-area .web-add{ background:#ddd;  width:99%; height:3rem; border-radius:0.2rem; background:url("../img/btn-2.png");background-repeat: no-repeat;background-position-x: 50%;background-position-y: 50%;margin: 0 auto;border: 1px solid #ccc;  cursor: pointer; background-size: 2.6rem;}
+.cont-area .web-add:hover {background:url("../img/btn-1.png");background-repeat: no-repeat;background-position-x: 50%;background-position-y: 50%;margin: 0 auto;border: 1px solid #ccc;  cursor: pointer; background-size: 2.6rem;}
+.cont-area .web-add a{display:block; width:100%;height:3rem}
+#toolbar  .t-main .btn-area dl{ width:10rem; height:8rem; float:left; margin:0.4rem;border:1px solid #ccc;  cursor: pointer;    overflow: hidden;}
+#toolbar  .t-main .btn-area dl dt{width:10rem; height:8rem;}
+#toolbar  .t-main .btn-area dl dd{display: none; width:100%;height:2rem; background:rgba(0, 0, 0, 0.7); position: relative; top: -2rem; color: #ccc; font-size: 13px; line-height: 2rem; text-align: center;}
+#toolbar  .t-main .btn-area dl dt img{width:100%;height:100%;}
+
+#toolbar .t-title{height:1.8rem; background:#777879;margint-top:0;width:100%;    border-top-left-radius: 5px;border-top-right-radius: 5px;}
+#toolbar .t-title span{height:1.8rem;line-height:1.8rem;color:#fff;padding-left:5px;}
+#toolbar .t-main{padding:5px;}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a097baa2-f314-45f5-92d4-fb258a13536b" name="www.tufaqixiang.cn" url="http://www.tufaqixiang.cn">
+        <fileTransfer host="www.tufaqixiang.cn" port="22" rootFolder="/var/www/page" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

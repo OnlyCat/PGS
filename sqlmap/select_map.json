@@ -1,0 +1,29 @@
+{
+	"get_user_info":
+	{
+		"sql": "SELECT * FROM user where id =(i:id)",
+		"fieldmaps":
+		{
+			"name": "name"
+		},
+		 "maptype": 1
+	},
+	"get_user_all":
+	{
+		"sql": "SELECT * FROM user",
+		"fieldmaps":
+		{
+			"name": "name"
+		},
+		 "maptype": 1
+	},
+	"check_userip_and_ipcode": 
+	{
+        "sql": "SELECT id FROM W_SchoolIP WHERE startip <= (d:ip1) AND endip >= (d:ip2) AND isvalid =1 AND ipcode = (s:ip_code)",
+        "fieldmaps": 
+		{
+            "id": "id"
+        },
+        "maptype": 1
+    }
+}
